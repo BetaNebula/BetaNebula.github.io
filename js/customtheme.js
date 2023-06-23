@@ -62,11 +62,16 @@ let ApathyEpilogueTheme = function() {
     return "@import url('/css/themes/epilogue.css');"
 }
 
+let nebulaTheme = function() {
+    return "@import url('/css/themes/Nébula.css');"
+}
+
 let customTheme = function() {
     return window.localStorage.getItem("customTheme");
 }
 
 let themes = {
+    "Nébula": nebulaTheme,
     "Electric": electricTheme,
     "Light": lightTheme,
     "1337": dank1337Theme,
