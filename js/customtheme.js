@@ -63,7 +63,7 @@ let ApathyEpilogueTheme = function() {
 }
 
 let nebulaTheme = function() {
-    return "@import url('/css/themes/Nébula.css');"
+    return "@import url('/css/themes/nebula.css');"
 }
 
 let customTheme = function() {
